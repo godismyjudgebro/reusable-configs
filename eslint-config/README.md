@@ -15,7 +15,7 @@ the [JavaScript Standard configuration][standardjs].
    ```
 2. Add the following to your `package.json`:
    ```json
-   "eslint": {
+   "eslintConfig": {
      "extends": "@godismyjudgebro/eslint-config"
    }
    ```
