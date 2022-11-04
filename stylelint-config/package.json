@@ -1,7 +1,7 @@
 {
   "name": "@godismyjudgebro/stylelint-config",
   "version": "1.0.0",
-  "description": "Daniel’s Prettier config.",
+  "description": "Daniel’s Stylelint config.",
   "keywords": [
     "check",
     "checker",
