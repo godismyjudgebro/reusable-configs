@@ -1,0 +1,68 @@
+{
+  "name": "@godismyjudgebro/eslint-config",
+  "version": "1.0.0",
+  "description": "Daniel’s ESLint config — extends the JavaScript Standard style.",
+  "keywords": [
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "homepage": "https://github.com/godismyjudgebro/reusable-configs/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/godismyjudgebro/reusable-configs/issues"
+  },
+  "license": "MIT",
+  "author": "Christian Daniel Beck",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/godismyjudgebro"
+    },
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/godismyjudgebro"
+    }
+  ],
+  "files": [
+    "*.js"
+  ],
+  "main": "config.index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godismyjudgebro/reusable-configs.git",
+    "directory": "eslint-config"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.5.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+# Editor configuration, see https://editorconfig.org.
+
+# Top-most EditorConfig file.
+root=true
+
+# Set default configuration for all files.
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# In markdown, two spaces at the end of a line signifies a line break.
+[**.md]
+trim_trailing_whitespace = false

@@ -1,0 +1,49 @@
+{
+  "name": "@godismyjudgebro/prettier-config",
+  "version": "1.0.0",
+  "description": "Daniel’s Prettier config.",
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code formatter",
+    "code standards",
+    "code style",
+    "enforce",
+    "format",
+    "policy",
+    "prettier",
+    "quality",
+    "simple",
+    "style",
+    "style checker",
+    "style formatter"
+  ],
+  "homepage": "https://github.com/godismyjudgebro/reusable-configs/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/godismyjudgebro/reusable-configs/issues"
+  },
+  "license": "MIT",
+  "author": "Christian Daniel Beck",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/godismyjudgebro"
+    },
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/godismyjudgebro"
+    }
+  ],
+  "main": "config.index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godismyjudgebro/reusable-configs.git",
+    "directory": "prettier-config"
+  },
+  "scripts": {},
+  "dependencies": {
+    "prettier": "2.7.1"
+  }
+}
