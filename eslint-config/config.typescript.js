@@ -12,6 +12,13 @@ module.exports = {
   rules: {
     // Vanilla ESLint Rules
     'consistent-return': 'off', // Useless for statically typed languages.
+    'no-void': [
+      'error',
+      {
+        // Ignore `void` floating promises. See: `'@typescript-eslint/no-floating-promises'.ignoreVoid`.
+        allowAsStatement: true
+      }
+    ],
     strict: ['error', 'never'],
 
     // JSDoc Rules
