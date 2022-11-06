@@ -19,7 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Changed the ESLint `no-void` rule for TypeScript files to ignore `void` statements. This allows `void someAsyncFunction()`.
+- Changed the ESLint [`no-void`] rule for TypeScript files to ignore `void`
+  statements. This allows `void someAsyncFunction()`.  
+  See: [`typescript-eslint/no-floating-promises`].
+
+[`no-void`]: https://eslint.org/docs/rules/no-void
+[`typescript-eslint/no-floating-promises`]: https://typescript-eslint.io/rules/no-floating-promises/
 
 ---
 
