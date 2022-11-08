@@ -284,13 +284,7 @@ module.exports = {
     'jsdoc/require-property-description': 'error',
     'jsdoc/require-property-name': 'error',
     'jsdoc/require-property-type': 'error',
-    'jsdoc/require-returns': [
-      'error',
-      {
-        forceRequireReturn: true,
-        forceReturnsWithAsync: true
-      }
-    ],
+    'jsdoc/require-returns': 'error',
     'jsdoc/require-returns-check': 'error',
     'jsdoc/require-returns-description': 'error',
     'jsdoc/require-returns-type': 'error',
