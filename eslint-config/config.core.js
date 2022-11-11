@@ -72,7 +72,8 @@ module.exports = {
     'guard-for-in': 'error',
     'id-match': [
       'error',
-      '^[a-z]*([A-Z]+[a-z]*)*[0-9]*$', // Only letters a-z, digits 0-9, and camelCase are allowed.
+      // StrictPascalCase and strictCamelCase
+      '^[a-z]*([A-Z][a-z]+)*[A-Z]*[0-9]*$',
       {
         classFields: true,
         onlyDeclarations: true,

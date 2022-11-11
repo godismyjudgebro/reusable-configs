@@ -1,6 +1,6 @@
 {
   "name": "@godismyjudgebro/eslint-config",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Daniel’s ESLint config — extends the JavaScript Standard style.",
   "keywords": [
     "JavaScript Standard Style",

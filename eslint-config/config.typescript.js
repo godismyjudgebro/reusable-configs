@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     // Vanilla ESLint Rules
     'consistent-return': 'off', // Useless for statically typed languages.
+    'id-match': 'off', // Use `@typescript-eslint/naming-convention` instead.
     'no-void': [
       'error',
       {
@@ -370,6 +371,7 @@ module.exports = {
           'JSXSpreadChild'
         ],
         offsetTernaryExpressions: true,
+        // eslint-disable-next-line id-match
         outerIIFEBody: 1
       }
     ],

@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 1.4.0 — 2022-11-11
+
+### Changed
+
+- `id-match` now matches StrictPascalCase and strictCamelCase. Continues to only allow digits last in the name.
+
+### Removed
+
+- Removed `no-underscore-dangle` rule (use `id-match` or `@typescript-eslint/naming-convention` instead).
+- Removed `id-match` rule for TypeScript files (use `@typescript-eslint/naming-convention` instead).
+
+---
+
 ## 1.3.0 — 2022-11-11
 
 ### Changed
