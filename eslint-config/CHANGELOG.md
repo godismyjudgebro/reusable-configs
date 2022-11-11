@@ -42,6 +42,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.1 — 2022-11-04
 
-### Changed
+### Fixed
 
 - Fixed installation instructions in [README.md](./README.md).
