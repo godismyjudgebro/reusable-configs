@@ -7,11 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## 1.2.0
+## 1.3.0 — 2020-11-11
+
+### Changed
+
+- Disabled option `checkGetters` for rule `jsdoc/require-returns`.
+
+---
+
+## 1.2.0 — 2022-11-08
 
 ### Added
 
 - Added a changelog.
+
+### Changed
+
 - Disabled options `forceRequireReturn` and `forceReturnsWithAsync` for rule `jsdoc/require-returns`.
 
 ---
