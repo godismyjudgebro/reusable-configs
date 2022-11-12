@@ -36,7 +36,7 @@ module.exports = {
       'error',
       {
         minimumDescriptionLength: 25,
-        'ts-expect-error': { descriptionFormat: '^ TS\\d{4} because .+$' }
+        'ts-expect-error': { descriptionFormat: '^ because .+$' }
       }
     ],
     '@typescript-eslint/ban-types': 'error',
