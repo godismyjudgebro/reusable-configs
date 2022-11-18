@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 1.6.0 — 2022-11-18
+
+### Removed
+
+- Removed ESLint rule `no-continue`.
+- Removed rule `@typescript-eslint/no-non-null-assertion`
+
+---
+
 ## 1.5.0 — 2022-11-12
 
 ### Changed

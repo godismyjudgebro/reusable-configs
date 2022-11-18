@@ -105,7 +105,6 @@ module.exports = {
     'no-bitwise': ['error', { allow: ['^', '~'] }],
     'no-confusing-arrow': 'error',
     'no-console': 'error',
-    'no-continue': 'error',
     'no-div-regex': 'error',
     'no-else-return': 'error',
     'no-empty-function': 'error',
