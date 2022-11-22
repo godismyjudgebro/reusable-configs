@@ -177,6 +177,18 @@ module.exports = {
         trailingUnderscore: 'forbid'
       },
       {
+        format: ['strictCamelCase'],
+        leadingUnderscore: 'require',
+        modifiers: ['private'],
+        selector: 'property'
+      },
+      {
+        format: ['strictCamelCase'],
+        leadingUnderscore: 'require',
+        modifiers: ['protected'],
+        selector: 'property'
+      },
+      {
         format: ['StrictPascalCase'],
         selector: 'typeLike'
       }

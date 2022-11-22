@@ -139,7 +139,13 @@ module.exports = {
     'no-return-await': 'error',
     'no-script-url': 'error',
     'no-shadow': ['error', { builtinGlobals: true, hoist: 'all' }],
-    'no-underscore-dangle': ['error', { allow: ['__dirname', '__filename'] }],
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: ['__dirname', '__filename'],
+        allowAfterThis: true
+      }
+    ],
     'no-useless-concat': 'error',
     'no-warning-comments': 'warn', // Warns about todos, making them easier to find. Preferably, todos should be resolved before merging.
     'operator-assignment': 'error',

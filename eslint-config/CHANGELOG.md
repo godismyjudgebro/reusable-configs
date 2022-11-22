@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 1.7.0 — 2022-11-22
+
+### Changed
+
+- Changed rule `@typescript-eslint/naming-convention` to require `_` prefix for private/protected properties.
+- Changed ESLint rule `no-underscore-dangle` to `allowAfterThis: true`.
+
+---
+
 ## 1.6.0 — 2022-11-18
 
 ### Removed
