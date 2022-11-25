@@ -255,7 +255,6 @@ module.exports = {
     'jsdoc/no-undefined-types': 'error',
     'jsdoc/require-asterisk-prefix': 'error',
     'jsdoc/require-description': 'error',
-    'jsdoc/require-description-complete-sentence': 'error',
     'jsdoc/require-hyphen-before-param-description': 'error',
     'jsdoc/require-jsdoc': [
       'error',

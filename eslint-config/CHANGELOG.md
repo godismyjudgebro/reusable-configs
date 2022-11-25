@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 1.8.0 — 2022-11-25
+
+### Removed
+
+- Disabled rule `jsdoc/require-description-complete-sentence`.
+
+---
+
 ## 1.7.0 — 2022-11-22
 
 ### Changed
